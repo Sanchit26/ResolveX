@@ -1,0 +1,16 @@
+[dotenv@17.2.3] injecting env (19) from ../../.env.local -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+🚀 Starting calling agent server...
+🔧 Using Twilio Account SID: ACfd2de9bd1e517645195653bd5c29154e
+✅ Twilio client initialized
+🔧 Setting up server on port 3000
+✅ Calling agent server running on port 3000
+🔗 Webhook URL: https://7d31-2409-40c0-100d-2ac8-e1eb-2bb6-80e9-5a11.ngrok-free.app
+📞 Twilio Number: +14345778039
+🎯 Default Call Number: +917660864952
+🎯 Twilio Status: Enabled
+📞 Call request received for: +917660864952
+📞 Initiating real Twilio call to: +917660864952
+✅ Call initiated successfully: CA3270acb8298ee72a3e9e9451fd1e8ccc
+📞 Call request received for: +917660864952
+📞 Initiating real Twilio call to: +917660864952
+✅ Call initiated successfully: CA7ca18ac37d96b2ed28eac2c84782488b
