@@ -108,7 +108,7 @@ When you click "Call Me" button:
 - ✅ **TwiML Generation**: Proper XML for Twilio
 
 ### **Phone Number Status:**
-- **Issue**: `+917660864952` needs verification in Twilio Console
+- **Issue**: `(API)` needs verification in Twilio Console
 - **Solution**: Verify the number or use a verified test number
 - **Impact**: Once verified, everything works perfectly
 
@@ -138,7 +138,7 @@ The only requirement is **phone number verification** with Twilio, which takes 2
 
 1. Visit [Twilio Console](https://console.twilio.com)
 2. Go to "Phone Numbers" > "Verified Caller IDs"  
-3. Add `+917660864952`
+3. Add `(API)`
 4. Complete SMS/voice verification
 5. **Start making voice calls with full chatbot conversation!**
 

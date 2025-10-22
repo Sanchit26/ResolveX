@@ -19,7 +19,7 @@ Updated the correct file: `.env.local`
 
 ### File: `.env.local`
 ```env
-OPENAI_API_KEY=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
+OPENAI_API_KEY=(API)
 ```
 
 ### Environment File Priority (Next.js):
@@ -83,7 +83,7 @@ OPENAI_API_KEY=
 ### After:
 ```bash
 # .env.local
-OPENAI_API_KEY=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
+OPENAI_API_KEY=(API)
 ```
 ✅ Valid key → AI-powered responses
 

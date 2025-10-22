@@ -39,7 +39,7 @@ twiml: '<Response><Say>Hello! Voice assistant...</Say></Response>'  // ✅ Works
 4. **Smooth experience**: No technical interruptions
 
 ### **Current Features:**
-- ✅ **Working voice calls** from `+14345778039`
+- ✅ **Working voice calls** from `(API)`
 - ✅ **Clear AI speech** with Alice voice
 - ✅ **Professional greeting** with instructions
 - ✅ **Basic interaction** through keypad

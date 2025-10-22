@@ -18,7 +18,7 @@
 
 ### 1. Environment File (`.env`)
 ```env
-OPENAI_API_KEY=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
+OPENAI_API_KEY=(API)
 ```
 ✅ Key updated successfully
 

@@ -30,7 +30,7 @@
 
 ### API Key Installed:
 ```
-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
+(API)
 ```
 
 ### Environment Files Updated:

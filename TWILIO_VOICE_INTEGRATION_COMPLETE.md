@@ -47,7 +47,7 @@ NGROK_URL=https://your-ngrok-subdomain.ngrok.io
 ### Step 4: Configure Twilio Webhook
 1. Go to [Twilio Console](https://console.twilio.com/)
 2. Navigate to Phone Numbers → Manage → Active Numbers
-3. Click on your Twilio number: `+12298002254`
+3. Click on your Twilio number: `(API)`
 4. Set the webhook URL to: `https://your-ngrok-subdomain.ngrok.io/voice`
 5. Set HTTP method to `POST`
 6. Save configuration
@@ -214,8 +214,8 @@ const categories = [
 
 ## 📞 Support Contacts
 
-**Twilio Account**: ACe2cd33558d079b07f6aecd283d5c8af6
-**Phone Number**: +12298002254
+**Twilio Account**: (API)
+**Phone Number**: (API)
 **OpenRouter Model**: meta-llama/llama-3.1-8b-instruct:free
 
 ---

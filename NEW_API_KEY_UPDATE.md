@@ -9,8 +9,8 @@
 
 ### 1. New API Key Installed
 ```
-Old Key: sk-proj-W6QO... (quota exceeded ❌)
-New Key: sk-proj-w5UT... (active ✅)
+Old Key: (API)
+New Key: (API)
 ```
 
 ### 2. Updated Files
@@ -34,7 +34,7 @@ npm run dev
 ### Expected Console Output:
 ```
 🔑 Checking OpenAI API key...
-   First 15 chars: sk-proj-w5U    ← NEW KEY!
+   First 15 chars: (API)
 ✅ OpenAI API key configured
 📨 Chatbot received message: Hello
 ✅ Chatbot response generated

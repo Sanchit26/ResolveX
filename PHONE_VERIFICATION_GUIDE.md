@@ -9,9 +9,9 @@ Your voice calling system is **fully functional** - the only remaining step is p
 ### ✅ Direct Twilio Call Test
 ```
 🚀 Making direct call with Twilio...
-📞 From: +12298002254 (Twilio Number)
-📱 To: +917660864952 (Your Number)
-❌ Result: "The number +917660864952 is unverified"
+📞 From: (API) (Twilio Number)
+📱 To: (API) (Your Number)
+❌ Result: "The number (API) is unverified"
 ```
 
 ### ✅ Calling Agent API Test
@@ -40,7 +40,7 @@ Visit: https://console.twilio.com/
 
 ### Step 3: Add Your Number
 1. Click "Add a new number" (+ button)
-2. Enter: `+917660864952`
+2. Enter: `(API)`
 3. Select "India" and "Text/Call"
 
 ### Step 4: Verify

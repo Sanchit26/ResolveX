@@ -15,7 +15,7 @@ Your voice calling system is **100% functional**. The only step remaining is ver
 
 ### Step 3: Add Your Number  
 1. Click **"+ Add a new number"** (red plus button)
-2. Enter: `+917660864952`
+2. Enter: `(API)`
 3. Select country: **India**
 4. Choose: **Voice** (check the box)
 
@@ -67,7 +67,7 @@ node direct_call_test.js
 - Use a different phone number if needed
 
 **If you don't receive the verification call:**
-- Check your phone number format is correct: `+917660864952`
+- Check your phone number format is correct: `(API)`
 - Make sure international calls aren't blocked
 - Contact Twilio support if issues persist
 

@@ -5,8 +5,8 @@ echo "================================================="
 echo ""
 
 echo "📞 Checking recent calls from Twilio..."
-curl -s -X GET "https://api.twilio.com/2010-04-01/Accounts/ACfd2de9bd1e517645195653bd5c29154e/Calls.json" \
-  -u "ACfd2de9bd1e517645195653bd5c29154e:018781b83c6735685644d3e5b42aac4c" | \
+curl -s -X GET "https://api.twilio.com/2010-04-01/Accounts/(API)/Calls.json" \
+  -u "(API):(API)" | \
   jq '.calls[:3] | .[] | {sid: .sid, to: .to, status: .status, duration: .duration}'
 
 echo ""

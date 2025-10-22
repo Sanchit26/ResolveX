@@ -52,15 +52,15 @@ Successfully fixed the voice calling and complaint filing system. All technical 
 7. Ends call gracefully
 
 ### 🔧 Technical Details
-- **Twilio Account**: `ACe2cd33558d079b07f6aecd283d5c8af6`
-- **Twilio Phone Number**: `+12298002254`
-- **Target Phone Number**: `+917660864952`
+- **Twilio Account**: `(API)`
+- **Twilio Phone Number**: `(API)`
+- **Target Phone Number**: `(API)`
 - **Voice**: Alice (English, slow rate for clarity)
 - **Database**: MongoDB Atlas with automatic NLP analysis
 - **Session Management**: Call state persistence for multi-turn conversations
 
 ## Current Limitation
-**Phone Number Verification Required**: Your phone number `+917660864952` needs to be verified in your Twilio Console before you can receive actual calls. This is a standard requirement for Twilio trial accounts.
+**Phone Number Verification Required**: Your phone number `(API)` needs to be verified in your Twilio Console before you can receive actual calls. This is a standard requirement for Twilio trial accounts.
 
 ## Next Steps to Complete Setup
 
@@ -68,7 +68,7 @@ Successfully fixed the voice calling and complaint filing system. All technical 
 1. Go to [Twilio Console](https://console.twilio.com/)
 2. Navigate to "Phone Numbers" → "Verified Caller IDs"
 3. Click "Add a new number"
-4. Enter `+917660864952`
+4. Enter `(API)`
 5. Complete the verification process (you'll receive a call with a verification code)
 
 ### Step 2: Test the Complete System
@@ -84,7 +84,7 @@ Once verified, you can:
 ### API Testing ✅
 ```bash
 # Call initiation returns proper error for unverified number
-curl -X POST http://localhost:3000/call-user -d '{"phoneNumber": "+917660864952"}'
+curl -X POST http://localhost:3000/call-user -d '{"phoneNumber": "(API)"}'
 # Returns: Proper verification error message
 
 # Voice webhook generates proper TwiML
